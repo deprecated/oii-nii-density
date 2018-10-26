@@ -1,0 +1,4 @@
+* [O II] 7330 / [N II] 6583 as a secondary density diagnostic
+
+** Ratio from MUSE Maps
+[[./Screenshot-ratio-7330-6583.png]]
