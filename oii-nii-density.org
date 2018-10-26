@@ -1,4 +1,31 @@
 * [O II] 7330 / [N II] 6583 as a secondary density diagnostic
 
 ** Ratio from MUSE Maps
-[[./Screenshot-ratio-7330-6583.png]]
+#+attr_html: :width 300
+[[./screenshots/Screenshot-ratio-7330-6583.png]]
+
+*** General features of the 7330/6583 ratio map
+
+** Comparison with other density maps
+
+*** [S II] density
+
+*** [Cl III] density
+
+** Sensitivity to ionization effects
++ In principle, any offset between the O+/O++ transition and the N+/N++ transition could effect the ratio
+
+
+*** Ionization maps
+
+**** High ionization: [O III]/[O II]
+
+**** Medium ionization [S III]/[S II]
++ But watch out for the density-dependence in this one
+
+**** Low ionization [O II]/[O I]
+
+
+*** Profiles across the Bright Bar
+#+attr_html: :width 200
+[[./screenshots/Screenshot-orion-bar-profiles.png]]
