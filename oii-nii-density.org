@@ -9,9 +9,9 @@
 ** Comparison with other density maps
 
 *** [S II] density
-
+[[file:screenshots/Screenshot-sii-density.png]]
 *** [Cl III] density
-
+[[file:screenshots/Screenshot-cliii-density.png]]
 ** Sensitivity to ionization effects
 + In principle, any offset between the O+/O++ transition and the N+/N++ transition could effect the ratio
 
@@ -19,13 +19,45 @@
 *** Ionization maps
 
 **** High ionization: [O III]/[O II]
-
+[[file:screenshots/Screenshot-ratio-oiii-oii.png]]
 **** Medium ionization [S III]/[S II]
 + But watch out for the density-dependence in this one
-
+[[file:screenshots/Screenshot-ratio-siii-sii.png]]
 **** Low ionization [O II]/[O I]
+[[file:screenshots/Screenshot-ratio-oii-oi.png]]
+**** Chlorine ionization
+#+attr_html: :width 500
+[[./screenshots/Screenshot-cl-iv-iii-ii.png]]
++ The [Cl IV] 8046 line is mainly from the central region, but it can actually be seen as far out as the bar - [Cl IV]/[Cl III] has a minimum at the bar
++ [Cl III]/[Cl II] behaves similarly to [S III]/[S II], except that it has the opposite density bias to sulphur: with chlorine, it is the ++ ion that is collisionally quenched.  
 
+#+attr_html: :width 500
+[[./screenshots/Screenshot-cl-iii-ii.png]]
 
 *** Profiles across the Bright Bar
 #+attr_html: :width 200
 [[./screenshots/Screenshot-orion-bar-profiles.png]]
+
++ The vertical lines are set at the [S II] density maximum and the [O II]/[O I] minimum, which should indicate the i-front
++ The [S II] and [Cl III] density profiles are very similar, apart from factor of 2 difference
++ The [O II]/[N II] ratio has a broader maximum, which I suspect might be something to do with the O^+ zone extending further inward than N^+ does
++ We should check that with Cloudy models
+
+
+
+*** Profiles across the compact bar
+#+attr_html: :width 500
+[[file:screenshots/Screenshot-ar-iv-iii-compact-bar.png]]
+
++ We can see the progression of ionization gradients in the ratios at the Compact Bar
+
+* 2D histograms
++ We should graph [O III]/[O II] vs [O II]/[O I] for instance
+  + The oxygen lines are best because critical densities for all the lines are high compared with expected densities (except for proplyds)
+  + Draw mixing lines between pure states
+  + Compare with Cloudy models
++ Also [Cl IV]/[Cl III] vs [Cl III]/[Cl II]
+  + This one needs to be corrected for the [Cl III] density, but we have that
++ [S III]/[S II] vs [Ar IV]/[Ar III] maybe
+* Cloudy models
+
